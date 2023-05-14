@@ -33,3 +33,4 @@ echo "<pre>";
 print_r($dir);
  */
 
+ echo "hellop index";
