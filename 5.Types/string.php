@@ -3,3 +3,5 @@
 /**
  * Heredoc and Nowdoc string 
  */
+
+echo "Added";
