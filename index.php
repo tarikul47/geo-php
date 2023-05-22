@@ -30,6 +30,10 @@
           
           foreach ($type_autoload_files as $file) {
             include_once $file;
+          } 
+          
+          foreach ($array_autoload_files as $file) {
+            include_once $file;
           }
           ?>
         </div>

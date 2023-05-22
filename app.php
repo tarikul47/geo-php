@@ -11,12 +11,13 @@ $error_autoload_files = array(
 );
 
 $type_autoload_files = array(
- // ROOT_DIR . '/5.Types/typecasting.php',
-<<<<<<< HEAD
- // ROOT_DIR . '/5.Types/boolean.php',
-  ROOT_DIR . '/5.Types/null.php',
-=======
+  // ROOT_DIR . '/5.Types/typecasting.php',
+  // ROOT_DIR . '/5.Types/boolean.php',
+ // ROOT_DIR . '/5.Types/null.php',
   //ROOT_DIR . '/5.Types/boolean.php',
-  ROOT_DIR . '/5.Types/string.php',
->>>>>>> 2c1662697a8d80f30c8fd39c98f13184c2da9aec
+ // ROOT_DIR . '/5.Types/string.php',
+);
+
+$array_autoload_files = array(
+   ROOT_DIR . '/11.Array/array.php',
 );
