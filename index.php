@@ -27,6 +27,10 @@
           foreach ($error_autoload_files as $file) {
             include_once $file;
           }
+          
+          foreach ($type_autoload_files as $file) {
+            include_once $file;
+          }
           ?>
         </div>
         <div class="card-footer text-muted">
