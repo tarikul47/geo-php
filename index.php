@@ -19,7 +19,7 @@
         <div class="card-header">
           Featured
         </div>
-        <div class="card-body min-vh-100">
+        <div class="card-body min-vh-100" style="text-align:left">
           <?php
 
           include_once "app.php";
@@ -27,8 +27,11 @@
           foreach ($error_autoload_files as $file) {
             include_once $file;
           }
-          
+
           foreach ($type_autoload_files as $file) {
+            include_once $file;
+          }
+          foreach ($array_autoload_files as $file) {
             include_once $file;
           }
           ?>
