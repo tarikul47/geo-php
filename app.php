@@ -15,7 +15,6 @@ $type_autoload_files = array(
   // ROOT_DIR . '/5.Types/boolean.php',
  // ROOT_DIR . '/5.Types/null.php',
   //ROOT_DIR . '/5.Types/boolean.php',
-<<<<<<< HEAD
   //ROOT_DIR . '/5.Types/string.php',
 );
 
@@ -23,11 +22,10 @@ $array_autoload_files = array(
   ROOT_DIR . '/11.Array/array.php',
   //ROOT_DIR . '/5.Types/boolean.php',
   //ROOT_DIR . '/5.Types/string.php',
-=======
  // ROOT_DIR . '/5.Types/string.php',
+  ROOT_DIR . '/5.Types/expression.php',
 );
 
 $array_autoload_files = array(
-   ROOT_DIR . '/11.Array/array.php',
->>>>>>> 1cdd875742975791af13b7eab55547610683ed2e
+  // ROOT_DIR . '/11.Array/array.php',
 );

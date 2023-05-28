@@ -13,7 +13,6 @@
  *  - array_push();
  */
 
-<<<<<<< HEAD
 $name = "Tarikul";
 $programmingLanguage = ['PHP', 'JAVA', 'CSS'];
 
@@ -112,6 +111,4 @@ print_r($array_1);
 
 
 // array_key_exit() 
-=======
  echo "Array";
->>>>>>> 1cdd875742975791af13b7eab55547610683ed2e
