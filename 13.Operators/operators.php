@@ -155,6 +155,7 @@
 
 /**
  * Array Operators (+ == === =! <> ==!) 
+ * + =  we can merger two array 
  */
 
 // $x = ['a', 'b', 'c'];
@@ -166,13 +167,13 @@
 // print_r($z); // firsr array print ['a', 'b', 'c']
 
 
-$x = ['a' => 1, 'b' => 2, 'c' => 3];
-$y = ['d' => 4, 'e' => 5, 'f' => 6, 'g' => 7];
+//$x = ['a' => 1, 'b' => 2, 'c' => 3];
+//$y = ['d' => 4, 'e' => 5, 'f' => 6, 'g' => 7];
 
-$z =  $x + $y;
+//$z =  $x + $y;
 
-echo "<pre>";
-print_r($z); // firsr array print ['a', 'b', 'c']
+//echo "<pre>";
+//print_r($z); // both array print [key unique]
 
 
  // Executions Operators (``)
