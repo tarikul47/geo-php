@@ -36,6 +36,7 @@
             include_once $file;
           }
           foreach ($operators_autoload_files as $file) {
+           // echo $file;
             include_once $file;
           }
           ?>
