@@ -29,3 +29,8 @@ $array_autoload_files = array(
 $operators_autoload_files = array(
   ROOT_DIR . '/13.Operators/operators.php',
 );
+
+$controls_autoload_files = array(
+ // ROOT_DIR . '/16.Controls/controls.php',
+  ROOT_DIR . '/16.Controls/html.php',
+);

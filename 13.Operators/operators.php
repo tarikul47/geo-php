@@ -117,14 +117,14 @@
  * #. both false =  true 
  * #. one true =  true 
  */
-$r6 = true xor false;
-$r7 = 5 > 3 xor 5 < 10;
+// $r6 = true xor false;
+// $r7 = 5 > 3 xor 5 < 10;
 
-if (true xor true) {
-    echo "Only one of the expressions was true";
-}else{
-    echo "Hello";
-}
+// if (true xor true) {
+//     echo "Only one of the expressions was true";
+// }else{
+//     echo "Hello";
+// }
 //var_dump($r6);
 
 //var_dump($r7);
