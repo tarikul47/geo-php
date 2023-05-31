@@ -104,6 +104,31 @@
 
 //var_dump($x &&  hello() || true); // $x && hello() = false || true = true
 
+// and || &&
+//$r1 = true && false; // false 
+//$r2 = true and false; // assign true in $r2 
+//r3 = false and true; // assign flase in $r3
+// $r4 = false || true; 
+// $r5 = false or true; // = > or = assign with false 
+// var_dump($r5);
+
+/**
+ * xor operator 
+ * #. both false =  true 
+ * #. one true =  true 
+ */
+$r6 = true xor false;
+$r7 = 5 > 3 xor 5 < 10;
+
+if (true xor true) {
+    echo "Only one of the expressions was true";
+}else{
+    echo "Hello";
+}
+//var_dump($r6);
+
+//var_dump($r7);
+
 /**
  * Bitwise Operators (& | ^ ~ << >>)
  * -----------------------------------
