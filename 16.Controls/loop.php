@@ -186,14 +186,17 @@ $users = [
 
 #7. 
 
-foreach ($users as $key => $value) {
-    echo $key . " => ";
+// foreach ($users as $key => $value) {
+//     echo $key . " => ";
 
-    if (is_array($value)) {
-        foreach ($value as $skill) {
-            echo $skill . ' - ';
-        }
-    } else {
-        echo $value . "<br>";
-    }
-}
+//     if (is_array($value)) {
+//         foreach ($value as $skill) {
+//             echo $skill . ' - ';
+//         }
+//     } else {
+//         echo $value . "<br>";
+//     }
+// }
+
+
+// foreach(); endforeach;
