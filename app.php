@@ -31,7 +31,16 @@ $operators_autoload_files = array(
 );
 
 $controls_autoload_files = array(
- // ROOT_DIR . '/16.Controls/controls.php',
+  // ROOT_DIR . '/16.Controls/controls.php',
   //ROOT_DIR . '/16.Controls/html.php',
-  ROOT_DIR . '/16.Controls/loop.php',
+  //ROOT_DIR . '/16.Controls/loop.php',
+  // ROOT_DIR . '/16.Controls/switch.php',
+  //  ROOT_DIR . '/16.Controls/match.php',
+);
+
+$statement_autoload_files = array(
+  ROOT_DIR . '/20.Statement/statement.php',
+);
+$include_autoload_files = array(
+  ROOT_DIR . '/21.Include/include.php',
 );

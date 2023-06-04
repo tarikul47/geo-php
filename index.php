@@ -30,18 +30,27 @@
 
           foreach ($type_autoload_files as $file) {
             include_once $file;
-          } 
-          
+          }
+
           foreach ($array_autoload_files as $file) {
             include_once $file;
           }
           foreach ($operators_autoload_files as $file) {
-           // echo $file;
+            // echo $file;
             include_once $file;
           }
-          
+
           foreach ($controls_autoload_files as $file) {
-           // echo $file;
+            // echo $file;
+            include_once $file;
+          }
+
+          foreach ($statement_autoload_files as $file) {
+            // echo $file;
+            include_once $file;
+          }
+          foreach ($include_autoload_files as $file) {
+            // echo $file;
             include_once $file;
           }
           ?>
