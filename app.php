@@ -39,8 +39,13 @@ $controls_autoload_files = array(
 );
 
 $statement_autoload_files = array(
-  ROOT_DIR . '/20.Statement/statement.php',
+  //ROOT_DIR . '/20.Statement/statement.php',
 );
+
 $include_autoload_files = array(
-  ROOT_DIR . '/21.Include/include.php',
+  //ROOT_DIR . '/21.Include/include.php',
+);
+
+$functions_autoload_files = array(
+  ROOT_DIR . '/22.Functions/functions.php',
 );

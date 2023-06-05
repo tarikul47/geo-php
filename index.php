@@ -52,6 +52,11 @@
           foreach ($include_autoload_files as $file) {
             // echo $file;
             include_once $file;
+          } 
+          
+          foreach ($functions_autoload_files as $file) {
+            // echo $file;
+            include_once $file;
           }
           ?>
         </div>
