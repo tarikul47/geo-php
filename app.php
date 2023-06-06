@@ -48,5 +48,9 @@ $include_autoload_files = array(
 
 $functions_autoload_files = array(
   //ROOT_DIR . '/22.Functions/functions.php',
-  ROOT_DIR . '/22.Functions/functionParam.php',
+  //ROOT_DIR . '/22.Functions/functionParam.php',
+);
+
+$static_autoload_files = array(
+  ROOT_DIR . '/24.Static/static.php',
 );
