@@ -55,3 +55,7 @@ $variable_autoload_files = array(
   //ROOT_DIR . '/24.Variable/static.php',
   ROOT_DIR . '/24.Variable/variable.php',
 );
+
+$dateTimeZone_autoload_files = array(
+  ROOT_DIR . '/26.DateTimeZone/dateTimeZone.php',
+);

@@ -102,11 +102,30 @@
  * Arrow function
  */
 
- /*
+/*
     $array = [1, 2, 3, 4];
 
     //$array2 = array_map(fn ($number) => $number * $number, $array);
     $array2 = array_map(fn ($number) => $number * $number, $array);
 
     var_dump($array2);
+*/
+
+/*
+    $num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+    $oddNumbers = array_map(function ($value) {
+        return $value % 2 !== 0 ? $value : null;
+    }, $num);
+
+    $oddNumbers = array_filter($oddNumbers);
+
+    print_r($oddNumbers);
+*/
+/*
+    $num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+    $oddNumbers = array_filter($num, fn ($value) => $value % 2 !== 0);
+
+    print_r($oddNumbers);
 */
