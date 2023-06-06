@@ -67,3 +67,32 @@
 
     echo foo();
 */
+
+
+/**
+ * Static variable use case
+ */
+
+/*
+    function foo()
+    {
+        $x = 1;
+        return $x++;
+    }
+
+    echo foo(); // 1
+    echo foo(); // 1
+    echo foo(); // 1
+*/
+
+/*
+    function foo()
+    {
+        static $x = 1;
+        return $x++;
+    }
+
+    echo foo(); // 1
+    echo foo(); // 2
+    echo foo(); // 3
+*/
