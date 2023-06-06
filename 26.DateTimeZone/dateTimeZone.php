@@ -59,4 +59,11 @@ echo $timeStamps . '<br>';
 $date = date('d/m/Y g:i:sa', $timeStamps);
 
 // date can parse and given all information 
-var_dump(date_parse($date));
+//var_dump(date_parse($date));
+
+echo date('D/m/Y g:ia', $current_time) . '<br>';
+echo date('d/m/Y g:ia', $current_time) . '<br>';
+echo date('j/m/Y g:ia', $current_time) . '<br>';
+echo date('l/m/Y g:ia', $current_time) . '<br>';
+echo date('N/m/Y g:ia', $current_time) . '<br>';
+echo date('jS/m/Y g:ia', $current_time) . '<br>';
