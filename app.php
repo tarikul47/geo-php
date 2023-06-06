@@ -51,6 +51,7 @@ $functions_autoload_files = array(
   //ROOT_DIR . '/22.Functions/functionParam.php',
 );
 
-$static_autoload_files = array(
-  ROOT_DIR . '/24.Static/static.php',
+$variable_autoload_files = array(
+  //ROOT_DIR . '/24.Variable/static.php',
+  ROOT_DIR . '/24.Variable/variable.php',
 );

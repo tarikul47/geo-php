@@ -59,7 +59,7 @@
             include_once $file;
           }
           
-          foreach ($static_autoload_files as $file) {
+          foreach ($variable_autoload_files as $file) {
             // echo $file;
             include_once $file;
           }
