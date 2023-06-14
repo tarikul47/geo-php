@@ -52,18 +52,22 @@
           foreach ($include_autoload_files as $file) {
             // echo $file;
             include_once $file;
-          } 
-          
+          }
+
           foreach ($functions_autoload_files as $file) {
             // echo $file;
             include_once $file;
           }
-          
+
           foreach ($variable_autoload_files as $file) {
             // echo $file;
             include_once $file;
           }
           foreach ($dateTimeZone_autoload_files as $file) {
+            // echo $file;
+            include_once $file;
+          }
+          foreach ($autoload_files as $file) {
             // echo $file;
             include_once $file;
           }

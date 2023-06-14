@@ -20,10 +20,7 @@ $type_autoload_files = array(
 
 $array_autoload_files = array(
   // ROOT_DIR . '/11.Array/array.php',
-  //ROOT_DIR . '/5.Types/boolean.php',
-  //ROOT_DIR . '/5.Types/string.php',
-  // ROOT_DIR . '/5.Types/string.php',
-  //ROOT_DIR . '/5.Types/expression.php',
+  // ROOT_DIR . '/11.Array/reference.php',
 );
 
 $operators_autoload_files = array(
@@ -53,9 +50,13 @@ $functions_autoload_files = array(
 
 $variable_autoload_files = array(
   //ROOT_DIR . '/24.Variable/static.php',
-  ROOT_DIR . '/24.Variable/variable.php',
+  //ROOT_DIR . '/24.Variable/variable.php',
 );
 
 $dateTimeZone_autoload_files = array(
-  ROOT_DIR . '/26.DateTimeZone/dateTimeZone.php',
+  // ROOT_DIR . '/26.DateTimeZone/dateTimeZone.php',
+);
+
+$autoload_files = array(
+  ROOT_DIR . '/Autoload/index.php',
 );
