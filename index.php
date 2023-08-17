@@ -70,6 +70,10 @@
           foreach ($autoload_files as $file) {
             // echo $file;
             include_once $file;
+          } 
+          foreach ($autoload_oop as $file) {
+            // echo $file;
+            include_once $file;
           }
           ?>
         </div>

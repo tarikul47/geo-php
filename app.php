@@ -58,5 +58,11 @@ $dateTimeZone_autoload_files = array(
 );
 
 $autoload_files = array(
-  ROOT_DIR . '/Autoload/index.php',
+  //ROOT_DIR . '/Autoload/index.php',
+);
+
+$autoload_oop = array(
+ // ROOT_DIR . '/36.OOP/oop.php',
+//  ROOT_DIR . '/36.OOP/null.php',
+  ROOT_DIR . '/38.Namespace/index.php',
 );
