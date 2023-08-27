@@ -1,0 +1,6 @@
+# abstract class = HtmlElement 
+    - define an abstract method 
+# Form class extends HtmlElement
+    - keep the abastract method 
+    - kepp a method addElement() // accept input object
+        -  
