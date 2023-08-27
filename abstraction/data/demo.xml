@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<people>
+    <person>
+        <Name>John Doe</Name>
+        <Age>28</Age>
+        <Location>New York</Location>
+        <Occupation>Software Engineer</Occupation>
+    </person>
+    <person>
+        <Name>Jane Smith</Name>
+        <Age>32</Age>
+        <Location>Los Angeles</Location>
+        <Occupation>Data Scientist</Occupation>
+    </person>
+    <person>
+        <Name>Michael Johnson</Name>
+        <Age>45</Age>
+        <Location>Chicago</Location>
+        <Occupation>Marketing Manager</Occupation>
+    </person>
+    <person>
+        <Name>Emily Brown</Name>
+        <Age>22</Age>
+        <Location>San Francisco</Location>
+        <Occupation>Student</Occupation>
+    </person>
+    <person>
+        <Name>David Lee</Name>
+        <Age>37</Age>
+        <Location>Houston</Location>
+        <Occupation>Accountant</Occupation>
+    </person>
+</people>
