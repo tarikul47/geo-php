@@ -7,9 +7,10 @@ class FileReaderCSV extends FileReader
     public function readData($filename)
     {
         $fp = fopen($filename, 'r');
+
         $return_value = [];
 
-        while ($data = fgetcsv($fp, '4096', ',')) {
+        while ($data = fgetcsv($fp, '4096',',')) {
             $p = new Product();
             $p->name = $data[1];
             $p->code = $data[0];

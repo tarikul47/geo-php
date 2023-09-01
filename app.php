@@ -66,6 +66,10 @@ $autoload_oop = array(
 //  ROOT_DIR . '/36.OOP/null.php',
  // ROOT_DIR . '/38.Namespace/index.php',
 // ROOT_DIR . '/38.Namespace/form.php',
- ROOT_DIR . '/abstraction/index.php',
+ //ROOT_DIR . '/abstraction/index.php',
+//ROOT_DIR . '/practice/interface/interface.php',
+//ROOT_DIR . '/practice/real/index.php',
+//ROOT_DIR . '/practice/late/late.php',
+ROOT_DIR . '/practice/trait/index.php',
 
 );
