@@ -70,6 +70,9 @@ $autoload_oop = array(
 //ROOT_DIR . '/practice/interface/interface.php',
 //ROOT_DIR . '/practice/real/index.php',
 //ROOT_DIR . '/practice/late/late.php',
-ROOT_DIR . '/practice/trait/index.php',
-
+//ROOT_DIR . '/practice/trait/index.php',
+//ROOT_DIR . '/oop-task/app.php',
+//ROOT_DIR . '/54.error/index.php',
+//ROOT_DIR . '/55.dateobj/date.php',
+ROOT_DIR . '/56.iterators/iterators.php',
 );

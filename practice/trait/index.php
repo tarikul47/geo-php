@@ -26,4 +26,5 @@ $Companyprofile = new Companyprofile();
 //$userProfile->log('User created is Successfully');
 //$Companyprofile->log('Company created is Successfully');
 
-include_once('t1.php');
+//include_once('t1.php');
+include_once('anonymous.php');
